@@ -38,7 +38,6 @@ When building the website, you can set a theme by using `--theme` option. Howeve
 theme = "Dot"
 ```
 
-
 ### Create your first content pages
 
 Then, create content pages inside the previously created chapter. Here are two ways to create content in the chapter:
@@ -48,7 +47,7 @@ hugo new installation/first-content.md
 hugo new installation/second-content/_index.md
 ```
 
-Feel free to edit thoses files by adding some sample content and replacing the `title` value in the beginning of the files. 
+Feel free to edit thoses files by adding some sample content and replacing the `title` value in the beginning of the files.
 
 ### Launching the website locally
 
@@ -69,7 +68,7 @@ hugo
 ```
 
 A `public` folder will be generated, containing all static content and assets for your website. It can now be deployed on any web server.
-<!-- 
-{{% notice info%}}
+
+<!-- {{% notice info%}}
 This website can be automatically published and hosted with [Netlify](https://www.netlify.com/) (Read more about [Automated HUGO deployments with Netlify](https://www.netlify.com/blog/2015/07/30/hosting-hugo-on-netlifyinsanely-fast-deploys/)). Alternatively, you can use [Github pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 {{% /notice %}} -->
