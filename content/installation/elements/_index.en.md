@@ -82,7 +82,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 #### Notice
 
-{{< notice note >}}
+<!-- {{< notice note >}}
   This is a simple note.
 {{< /notice >}}
 
@@ -92,7 +92,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime 
 
 {{< notice info >}}
   This is a simple info.
-{{< /notice >}}
+{{< /notice >}} -->
 
 <hr>
 

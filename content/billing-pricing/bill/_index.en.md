@@ -10,7 +10,7 @@ keywords: ["money","payment"]
 
 Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendisse tincidunt consequat quam, ac posuere leo dapibus id. Cras fringilla convallis elit, at eleifend mi interam.
 
-{{< notice note >}}
+<!-- {{< notice note >}}
   This is a simple note.
 {{</ notice >}}
 
@@ -20,7 +20,7 @@ Musce libero nunc, dignissim quis turpis quis, semper vehicula dolor. Suspendiss
 
 {{< notice info >}}
   This is a simple info.
-{{</ notice >}}
+{{</ notice >}} -->
 
 
 {{< tabs >}}
