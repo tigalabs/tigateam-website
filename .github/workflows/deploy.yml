@@ -18,11 +18,11 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.2.2
         with:
-          hugo-version: "0.76.5"
+          hugo-version: "0.81.0"
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy to Server
         uses: hengkx/ssh-deploy@v1.0.1
@@ -31,4 +31,4 @@ jobs:
           USERNAME: ${{ secrets.DEPLOY_HOST_USER }} # 为了用户信息安全对敏感数据可以在secrets中配置请看下图
           PASSWORD: ${{ secrets.DEPLOY_HOST_PASSWORD }}
           SOURCE: "public"
-          TARGET: "/www/wwwroot/tigateam.com"
+          TARGET: "/www/wwwroot/tigateam.org"
