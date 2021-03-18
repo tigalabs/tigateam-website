@@ -12,6 +12,7 @@ jobs:
       - name: Checkout | 切换到部署分支
         uses: actions/checkout@v2
         with:
+          ref: "master"
           submodules: true
           fetch-depth: 0
 
