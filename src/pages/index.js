@@ -6,6 +6,9 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 
+import Translate, { translate } from '@docusaurus/Translate'; // i18n component
+
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -16,8 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/about">
+            {translate({ id: "homepage.ButtonText" })}
           </Link>
         </div>
       </div>
@@ -33,7 +36,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        {/* <HomepageFeatures /> */}
       </main>
     </Layout>
   );

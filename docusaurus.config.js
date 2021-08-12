@@ -14,7 +14,7 @@ module.exports = {
   projectName: 'tigateam-website', // Usually your repo name.
   // i18n
   i18n: {
-    defaultLocale: 'zh-Hans',
+    defaultLocale: 'en',
     locales: ['en', 'zh-Hans'],
     localeConfigs: {
       en: {
@@ -40,6 +40,12 @@ module.exports = {
         //   label: 'Collaboration-Specification',
         //   position: 'right'
         // },
+        {
+          type: 'doc',
+          docId: 'about',
+          position: 'right',
+          label: 'Docs',
+        },
         { to: '/blog', label: 'Blog', position: 'right' },
         {
           type: 'localeDropdown',
