@@ -160,11 +160,11 @@
     "description": "The label used by the button on the collapsible TOC component"
   },
   "homepage.Tagline": {
-    "message": "A modular framework based on Go language",
+    "message": "A technical open source team",
     "description": "The tagline"
   },
   "homepage.ButtonText": {
     "message": "Learn More🚀",
     "description": "Learn More"
-  },
+  }
 }
