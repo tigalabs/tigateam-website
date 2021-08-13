@@ -1,0 +1,50 @@
+{
+  "link.title.Team Project": {
+    "message": "Team Project",
+    "description": "The title of the footer links column with title=Team Project in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.title.Links": {
+    "message": "Links",
+    "description": "The title of the footer links column with title=Links in the footer"
+  },
+  "link.item.label.Tiga CLI": {
+    "message": "Tiga CLI",
+    "description": "The label of footer link with label=Tiga CLI linking to https://github.com/tigateam/tiga-cli"
+  },
+  "link.item.label.Tigago": {
+    "message": "Tigago",
+    "description": "The label of footer link with label=Tigago linking to https://github.com/tigateam/tigago"
+  },
+  "link.item.label.Tigaui": {
+    "message": "Tigaui",
+    "description": "The label of footer link with label=Tigaui linking to https://github.com/tigateam/tigaui"
+  },
+  "link.item.label.Gitter": {
+    "message": "Gitter",
+    "description": "The label of footer link with label=Gitter linking to https://gitter.im/tigateam/community"
+  },
+  "link.item.label.tigago-demo": {
+    "message": "tigago-demo",
+    "description": "The label of footer link with label=tigago-demo linking to https://github.com/tigateam/tigago-demo"
+  },
+  "link.item.label.TigaTeam Homepage": {
+    "message": "TigaTeam Homepage",
+    "description": "The label of footer link with label=TigaTeam Homepage linking to https://github.com/tigateam"
+  },
+  "link.item.label.Misitebao‘s Blog": {
+    "message": "Misitebao‘s Blog",
+    "description": "The label of footer link with label=Misitebao‘s Blog linking to https://blog.misitebao.com"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 TigaTeam, Inc. Built with Docusaurus.",
+    "description": "The footer copyright"
+  }
+}
