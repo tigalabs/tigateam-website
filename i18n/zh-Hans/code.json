@@ -159,6 +159,9 @@
     "message": "本页总览",
     "description": "The label used by the button on the collapsible TOC component"
   },
+  "homepage.Title": {
+    "message": "TigaTeam开源团队"
+  },
   "homepage.Tagline": {
     "message": "一个技术开源团队"
   },

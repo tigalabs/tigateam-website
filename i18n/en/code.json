@@ -159,6 +159,9 @@
     "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
+  "homepage.Title": {
+    "message": "TigaTeam Open Source Team"
+  },
   "homepage.Tagline": {
     "message": "A technical open source team",
     "description": "The tagline"

@@ -1,18 +1,18 @@
 {
   "link.title.Team Project": {
-    "message": "Team Project",
+    "message": "团队项目",
     "description": "The title of the footer links column with title=Team Project in the footer"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "社区交流",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "其他相关",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.title.Links": {
-    "message": "Links",
+    "message": "友情链接",
     "description": "The title of the footer links column with title=Links in the footer"
   },
   "link.item.label.Tiga CLI": {

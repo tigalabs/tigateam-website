@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "TigaTeam",
+    "message": "TigaTeam 开源团队",
     "description": "The title in the navbar"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "文档",
     "description": "Navbar item with label Docs"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
