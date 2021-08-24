@@ -1,9 +1,9 @@
 name: Deploy | 部署
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout | 切换到部署分支
         uses: actions/checkout@v2
         with:
-          ref: "master"
+          ref: "main"
           submodules: true
           fetch-depth: 0
 
