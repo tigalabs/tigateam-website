@@ -24,6 +24,18 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* 自定义 */
+:root {
+  --ifm-color-primary: rgb(249, 122, 122);
+  --ifm-color-primary-dark: rgb(249, 122, 122);
+  --ifm-color-primary-darker: rgb(247, 112, 124);
+  --ifm-color-primary-darkest: rgb(240, 122, 122);
+  --ifm-color-primary-light: rgb(249, 122, 122);
+  --ifm-color-primary-lighter: rgb(249, 122, 122);
+  --ifm-color-primary-lightest: rgb(249, 122, 122);
+  --ifm-code-font-size: 95%;
 }
